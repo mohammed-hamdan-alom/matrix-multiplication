@@ -6,7 +6,6 @@
 #include <random>
 #include <functional>
 
-// Basic matrix class template
 template <typename T>
 class Matrix
 {
@@ -17,7 +16,6 @@ private:
 public:
   Matrix(size_t r, size_t c) : rows(r), cols(c), data(r, std::vector<T>(c, 0)) {}
 
-  // Initialize with random values
   void randomInit(T min = 0, T max = 100)
   {
     std::random_device rd;
@@ -55,7 +53,6 @@ public:
     return result;
   }
 
-  // Async matrix multiplication using std::async
   Matrix<T> multiply_async(const Matrix<T> &other) const
   {
     if (cols != other.rows)
