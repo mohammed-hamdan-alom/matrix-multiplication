@@ -37,5 +37,5 @@ This project helped me deepen my understanding of:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/matrix-multiplier-cpp.git
+git clone https://github.com/mohammed-hamdan-alom/matrix-multiplion.git
 cd matrix-multiplier-cpp
